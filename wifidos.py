@@ -197,7 +197,6 @@ while True:
     try:
         if active_wireless_networks[int(choice)]:
                             break
-           break
     except:
         print("Réessaie encore une fois.")
 
