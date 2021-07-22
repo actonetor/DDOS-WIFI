@@ -121,7 +121,7 @@ while True:
     try:
         if check_wifi_result[int(wifi_interface_choice)]:
             break
-   except:
+    except:
         print("Entrer le nombre de votre réseau:")
 
 # For easy reference we call the selected interface hacknic
