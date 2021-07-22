@@ -59,7 +59,7 @@ print("|          |    /                \       |      \         |     |        
 print("|          |   /                  \      |       \        |     |         \ |         \        |      |       \         /        ")
 print("|          |  /                    \     |        \       |     |          \|          \_______|      |        \_______/         ")
 print("")
-print("                                                                                                                         >
+print("                                                                                                                par actone_tor")
 print("")
 print("")
 print("")
@@ -146,7 +146,7 @@ put_in_monitored_mode = subprocess.run(["sudo", "airmon-ng", "start", hacknic])
 # The output is an open file that can be accessed by other programs.
 # We run the iwconfig command to look for wireless interfaces.
 # Discover access points
-discover_access_points = subprocess.Popen(["sudo", "airodump-ng","-w" ,"file","--write-interval", "1","--output-format", "csv", >
+discover_access_points = subprocess.Popen(["sudo", "airodump-ng","-w" ,"file","--write-interval", "1","--output-format", "csv",hacknic + "mon"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL) 
 
 # Loop that shows the wireless access points. We use a try except block and we will quit the loop by pressing ctrl-c.
 try:
@@ -156,7 +156,7 @@ try:
         for file_name in os.listdir():
                 # We should only have one csv file as we backup all previous csv files from the folder every time we run the pro>
                 # The following list contains the field names for the csv entries.
-                fieldnames = ['BSSID', 'First_time_seen', 'Last_time_seen', 'channel', 'Speed', 'Privacy', 'Cipher', 'Authentica>
+                fieldnames = ['BSSID', 'First_time_seen', 'Last_time_seen', 'channel', 'Speed', 'Privacy', 'Cipher', 'Authentication', 'Power', 'beacons', 'IV', 'LAN_IP', 'ID_length', 'ESSID', 'Key']
                 if ".csv" in file_name:
                     with open(file_name) as csv_h:
                         # This will run multiple times and we need to reset the cursor to the beginning of the file.
