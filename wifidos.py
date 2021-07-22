@@ -167,9 +167,10 @@ try:
                         for row in csv_reader:
                             # We want to exclude the row with BSSID.
                             if row["BSSID"] == "BSSID":
-                                pass
+                              pass
                             # We are not interested in the client data.
                             elif row["BSSID"] == "Station MAC":
+                                  break
                                # Every field where an ESSID is specified will be added to the list.
                             elif check_for_essid(row["ESSID"], active_wireless_networks):
                                 active_wireless_networks.append(row)
