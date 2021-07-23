@@ -59,7 +59,7 @@ print("|          |    /                \       |      \         |     |        
 print("|          |   /                  \      |       \        |     |         \ |         \        |      |       \         /      \        /      |          ")
 print("|          |  /                    \     |        \       |     |          \|          \_______|      |        \_______/        \______/       |__________")
 print("")
-print("                                                                                                                par actone_tor")
+print("                                                                                                                                            par actone_tor")
 print("")
 print("")
 print("")
