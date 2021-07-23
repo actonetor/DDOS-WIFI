@@ -3,7 +3,7 @@ ddos un réseau wifi avec un tool python
 
 Vid  tutoriel :https://www.youtube.com/watch?v=n-jxc-RzkR4
 
-JE NE SUIS EN AUCUN CAS RESPONSABLE DE VOS ACTES!!!!
+JE NE SUIS EN AUCUN CAS RESPONSABLE DE VOS ACTES!!!!!
 
 
 LINUX:
