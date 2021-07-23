@@ -11,6 +11,10 @@ Pour installer le reposytorie "wifidos.py"
 
 git clone https://github.com/actonetor/DDOS-WIFI
 
+Pour Entrer dans le fichier installer
+
+cd DDOS-WIFI
+
 
 pour lancer le script "wifidos.py"
 
