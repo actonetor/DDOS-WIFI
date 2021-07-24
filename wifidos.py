@@ -128,7 +128,7 @@ while True:
 hacknic = check_wifi_result[int(wifi_interface_choice)]
 
 # Tell the user we're going to kill the conflicting processes.
-print("adapteur wifi et connecter!\nKill des réseau:")
+print("adapteur wifi connecter!\nKill des réseau:")
 
 # subprocess.run(<list of command line arguments goes here>)
 # The script is the parent process and creates a child process which runs the system command, 
